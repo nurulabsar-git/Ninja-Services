@@ -1,9 +1,15 @@
 .link-style{
+    margin-right: 15px;
     text-decoration: none;
-    padding: 8px;
-    margin: 10px;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px rosybrown;
+    cursor: pointer;
 }
 
+.link:hover{
+      
+    text-shadow: 20px 20px 19px green;
+}
 .header-background-style{
     background-image: url(h2.png);
     background-repeat: no-repeat;
