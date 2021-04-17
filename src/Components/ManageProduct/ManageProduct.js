@@ -4,13 +4,13 @@ const ManageProduct = () => {
     const [manageProduct, setManageProduct] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:5000/getProducts")
+        fetch("https://morning-woodland-93138.herokuapp.com/getProducts")
         .then(result => result.json())
         .then(data => setManageProduct(data))
     })
 
  const handleDeleteData = (id) => {
-    fetch(`http://localhost:5000/deleteProduct/${id}`, {
+    fetch(`https://morning-woodland-93138.herokuapp.com/deleteProduct/${id}`, {
         method : 'DELETE'
     })
     .then(result => result.json())

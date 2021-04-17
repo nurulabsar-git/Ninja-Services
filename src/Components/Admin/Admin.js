@@ -23,7 +23,7 @@ const handleSubmit = () => {
   formData.append('file', info.email);
   formData.append('file', info.date);
 
-  fetch('http://localhost:5000/addProduct', {
+  fetch('https://still-gorge-63700.herokuapp.com/addProduct', {
     method: 'POST',
     body: formData
   })

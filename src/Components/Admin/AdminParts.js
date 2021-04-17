@@ -15,7 +15,7 @@ const AdminParts = () => {
             imageURL: imageURL
 
         };
-        const url =`http://localhost:5000/addProduct`;
+        const url =`https://still-gorge-63700.herokuapp.com/addProduct`;
         console.log(eventData);
         fetch(url, {
             method: 'POST',

@@ -18,7 +18,7 @@ const ServiceDetails = () => {
       }
 
     useEffect(() => {
-        fetch("http://localhost:5000/getProducts")
+        fetch("https://morning-woodland-93138.herokuapp.com/getProducts")
         .then(result => result.json())
         .then(data => {
             const compareWithServiceId = data.find(datum => datum._id === serviceId)

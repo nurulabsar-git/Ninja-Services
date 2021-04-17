@@ -11,7 +11,7 @@ const TopBanner = () => {
   const [topBannerProducts, setTopBannerProducts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/getProducts")
+    fetch("https://morning-woodland-93138.herokuapp.com/getProducts")
     .then(result => result.json())
     .then(data => setTopBannerProducts(data))
   }, [])

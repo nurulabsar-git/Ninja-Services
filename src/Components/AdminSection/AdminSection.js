@@ -15,14 +15,14 @@ const AdminSection = () => {
         <div>
           <Router>
               <div style={{margin: '10px', padding: '10px'}}>
-                  <Link className="Link-style" to="/manage">Manage</Link>
-                  <Link className="Link-style" to="/mAdmin">Admin</Link>
+                  <Link className="Link-style" to="/manage">Manage Product</Link>
+                  <Link className="Link-style" to="/addProduct">Add Product</Link>
               </div>
          <Switch>
              <Route path="/manage">
              <ManageProduct></ManageProduct>
              </Route>
-             <Route path="/mAdmin">
+             <Route path="/addProduct">
                  <AdminParts></AdminParts>
              </Route>
          </Switch>

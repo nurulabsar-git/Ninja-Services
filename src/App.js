@@ -16,6 +16,8 @@ import LogIn from './Components/LogIn/LogIn';
 import NotFound from './Components/NotFound/NotFound';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import './App.css'
+import Clothes from './Components/AnotherServices/Clothes/Clothes';
+import OurServices from './Components/Home/OurServices/OurServices';
 
 export const ThemeContext = createContext()
 function App() {
@@ -39,6 +41,12 @@ function App() {
          </Route>
          <Route path="/adminSection">
          <AdminSection></AdminSection>
+         </Route>
+         <Route path="/cloth">
+         <Clothes></Clothes>
+         </Route>
+         <Route path="/food">
+           <OurServices></OurServices>
          </Route>
          <Route path="/login">
            <LogIn></LogIn> 

@@ -13,8 +13,8 @@ const Footer = () => {
                </div>
                <div className="col-md-4">
                  <h6>Social Link</h6>
-                 <a href="http://www.facebook.com" className="link-style"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a> <br/>
-                 <a href="https://twitter.com/?lang=en" className="link-style"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a> <br/>
+                 <a className="link-style" href="http://www.facebook.com"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a> <br/>
+                 <a className="link-style" href="https://twitter.com/?lang=en"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a> <br/>
                  <a href="http://www.youtube.com/watch?v=SQvV4SNeH-U" className="link-style"><i class="fa fa-youtube-square" aria-hidden="true"></i> YouTube</a> <br/>
                </div>
                <div className="col-md-4">

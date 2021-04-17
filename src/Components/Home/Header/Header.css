@@ -2,7 +2,7 @@
     margin-right: 15px;
     text-decoration: none;
     font-size: 20px;
-    text-shadow: 1px 1px 3px rosybrown;
+    text-shadow: 1px 1px 3px green;
     cursor: pointer;
 }
 
@@ -10,11 +10,11 @@
       
     text-shadow: 20px 20px 19px green;
 }
-.header-background-style{
-    background-image: url(h2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.header-style{
+    background-color: #B8CAD4;
     height: 15vh;
     border-radius: 0px 0px 8px 8px;
     margin: 0px 8px;
+    padding: 5px 50px;
+    
 }

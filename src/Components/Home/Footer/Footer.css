@@ -9,6 +9,12 @@
     margin-top: 100px;
 }
 
-/* .footer-bottom-style{
-    background-color: #4A0203;
-} */
+@media (max-width: 575.98px) { 
+    .footer-style{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        padding: 10px;
+        align-items: baseline;
+    }
+}

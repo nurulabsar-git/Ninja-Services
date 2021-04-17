@@ -17,7 +17,7 @@ const ClothDetails = () => {
       }
 
     useEffect(() => {
-     fetch("http://localhost:5000/getSkipping")
+     fetch("https://morning-woodland-93138.herokuapp.com/getSkipping")
      .then(result => result.json())
      .then(data => {
          const clothData = data.find(datum => datum._id === clothId)
