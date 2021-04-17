@@ -1,0 +1,14 @@
+.link-style{
+    text-decoration: none;
+    padding: 8px;
+    margin: 10px;
+}
+
+.header-background-style{
+    background-image: url(h2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15vh;
+    border-radius: 0px 0px 8px 8px;
+    margin: 0px 8px;
+}

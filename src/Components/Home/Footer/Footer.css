@@ -1,0 +1,14 @@
+.link-style{
+    text-decoration: none;
+}
+
+.footer-style{
+    background-color: #333333;
+    color: whitesmoke;
+    padding: 10px 8px 10px 8px;
+    margin-top: 100px;
+}
+
+/* .footer-bottom-style{
+    background-color: #4A0203;
+} */
