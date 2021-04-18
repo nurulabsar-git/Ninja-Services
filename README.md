@@ -49,8 +49,7 @@ Please Open [https://assignt-11.web.app](https://assignt-11.web.app)
 
 ## In the index.js file
 
-<p align="center> app.listen(process.env.PORT || 5000, () => {
-  console.log("http://localhost:5000")
-})
+- app.listen(process.env.PORT || 5000, () => {
+  console.log("http://localhost:5000") })
 
-</p>
+
