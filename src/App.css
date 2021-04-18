@@ -12,9 +12,17 @@
   height: 10vh;
   padding: 12px;
   color: red;
+  
 }
 
 @keyframes mymove {
   from {left: 0px;}
   to {left: 500px;}
+}
+
+@media (max-width: 500px){
+  .animation{
+      font-size: 14px;
+      
+  }
 }

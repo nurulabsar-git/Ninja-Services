@@ -27,27 +27,27 @@ function App() {
       <div className="top-header-decoration">
        <h4 style={{textAlign: 'center', padding: '10px', textShadow: '6px 6px 12px gray'}}><i>Ninja Services</i></h4>
        <div className="animation-style">
-       <h4>Covid-19 And Human Rights We are all in this together</h4>
+       <h4 className="animation">Covid-19 And Human Rights We are all in this together</h4>
        </div>
       </div>
       <Router>
       <Header></Header>
         <Switch>
-         <Route path="/service/:serviceId">
+         <PrivateRoute path="/service/:serviceId">
            <ServiceDetails></ServiceDetails>
-         </Route>
-         <Route path="/cloth/:clothId">
+         </PrivateRoute>
+         <PrivateRoute path="/cloth/:clothId">
            <ClothDetails></ClothDetails>
-         </Route>
-         <Route path="/adminSection">
+         </PrivateRoute>
+         <PrivateRoute path="/adminSection">
          <AdminSection></AdminSection>
-         </Route>
-         <Route path="/cloth">
+         </PrivateRoute>
+         <PrivateRoute path="/cloth">
          <Clothes></Clothes>
-         </Route>
-         <Route path="/products">
+         </PrivateRoute>
+         <PrivateRoute path="/products">
            <OurServices></OurServices>
-         </Route>
+         </PrivateRoute>
          <Route path="/login">
            <LogIn></LogIn> 
          </Route>

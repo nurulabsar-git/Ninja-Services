@@ -8,8 +8,8 @@ const Footer = () => {
            <div className="row">
                <div className="col-md-4">
                 <h6>About Us</h6>
-                <p>This is a food delivery service for every hungry animals.
-                 You can buy lots of necessary food from here. </p>
+                <p>This is a product delivery service.
+                 You can buy lots of necessary items from here. </p>
                </div>
                <div className="col-md-4">
                  <h6>Social Link</h6>
