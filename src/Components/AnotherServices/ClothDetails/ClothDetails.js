@@ -17,7 +17,7 @@ const ClothDetails = () => {
       }
 
     useEffect(() => {
-     fetch("https://morning-woodland-93138.herokuapp.com/getSkipping")
+     fetch("https://morning-woodland-93138.herokuapp.com/getSkippingProduct")
      .then(result => result.json())
      .then(data => {
          const clothData = data.find(datum => datum._id === clothId)
