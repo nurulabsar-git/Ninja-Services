@@ -23,7 +23,7 @@ const handleSubmit = () => {
   formData.append('file', info.email);
   formData.append('file', info.date);
 
-  fetch('https://still-gorge-63700.herokuapp.com/addProduct', {
+  fetch('https://morning-woodland-93138.herokuapp.com/addProduct', {
     method: 'POST',
     body: formData
   })

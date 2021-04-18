@@ -17,7 +17,8 @@ const SubServices = (props) => {
             <h5>Name: {name.name}</h5>
             <h5>Price: $ {name.price}</h5>
             <h5>Wight: {name.wight}</h5>
-           </div>    
+           </div> 
+           {/* transform: rotate(300deg);    */}
         </section>
     );
 };

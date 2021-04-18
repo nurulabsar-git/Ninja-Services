@@ -25,7 +25,7 @@ function App() {
   return (
     <ThemeContext.Provider value = {[loggedInUser, setLoggedInUser]}>
       <div className="top-header-decoration">
-       <h4 style={{textAlign: 'center', padding: '10px'}}><i>Product Planet</i></h4>
+       <h4 style={{textAlign: 'center', padding: '10px', textShadow: '6px 6px 12px gray'}}><i>Ninja Services</i></h4>
        <div className="animation-style">
        <h4>Covid-19 And Human Rights We are all in this together</h4>
        </div>
@@ -45,7 +45,7 @@ function App() {
          <Route path="/cloth">
          <Clothes></Clothes>
          </Route>
-         <Route path="/food">
+         <Route path="/products">
            <OurServices></OurServices>
          </Route>
          <Route path="/login">

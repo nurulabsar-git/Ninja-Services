@@ -19,10 +19,11 @@ const TopBanner = () => {
    
     return (
         <div className="row background-style">
-            <div className="col-md-4" style={{padding: '10px', textAlign: 'center', color: 'white'}}>
+            <div className="col-md-4" style={{padding: '10px',  textAlign: 'justify', color: 'white'}}>
             <h4>Most Viewed food</h4>
             <p>Take a test come join with us. Life so endlessly delicious!
-              This food We provide 5% discount. 
+              This product most viewed.Now We provide it 5% discount. And also we give special 
+              gift via lottery coupon!
             </p>
             
              </div>

@@ -15,7 +15,7 @@ const AdminParts = () => {
             imageURL: imageURL
 
         };
-        const url =`https://still-gorge-63700.herokuapp.com/addProduct`;
+        const url =`https://morning-woodland-93138.herokuapp.com/addProduct`;
         console.log(eventData);
         fetch(url, {
             method: 'POST',

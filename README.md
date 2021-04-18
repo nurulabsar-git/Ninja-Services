@@ -17,7 +17,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Live Site Link
+Open [https://assignt-11.web.app](https://assignt-11.web.app)
