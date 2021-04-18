@@ -58,6 +58,7 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
+        
       </Router>
     </ThemeContext.Provider>
   );
